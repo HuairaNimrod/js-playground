@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Find Odds Coding Challenge -->
+
+    <!-- Welcome! The main instructions for this challenge are in this
+		file, with some additional comments in the associate JavaScript and
+		CSS files. If you're not sure what to do next, consult this file.
+		-->
+
+    <!-- (1) in this HTML file:
+			- include an external stylesheet 
+			- include an external javascript
+			- put your name in a title element
+			- and include any other markup that you would normally include or consider. -->
+			<link rel="stylesheet" href="src/styles.css">
+			<script src="src/index.js"></script>
+			<title>Nim Huaira</title>
+
+    <!-- (2) In the JavaScript file:
+			Complete the findOdds Javascript function. Make it take an array as a
+			parameter and return the count of items in the array that are odds. Keep this function stand-alone. I.e. it should not know ANYTING about
+			DOM. -->
+  </head>
+  <body>
+    <!-- (3) In this file, create a document that when loaded in the browser
+			provides
+				- an input,
+				- a button, and 
+				- an element that displays "The odd numbers are blah." -->
+	<p>Enter a list of numbers separated by space</p>
+	<div>
+		<input type="text" id="numbersArray"><br>
+		<button onclick="handleClick()">Get Odd Numbers</button>
+	</div>
+	<p>The Odd numbers are: <span id="result">blah</span></p>
+
+
+    <!-- (4) In the CSS file:
+			Style "blah" (and ONLY "blah") bold and red. -->
+
+    <!-- (5) Add handleClick to the button. Make it create an array of numbers
+			using the text in the input. Pass the array of numbers to FindOdd. 
+			Replace "blah" with the result, Keep the "glue code" separate from the 
+			function you created. That is, keep your function stand-alone, as before. -->
+  </body>
+</html>

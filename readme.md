@@ -1,6 +1,6 @@
 ## JS projects
 
-Repository with small projects on JavaScript.
+Small application that captures the numbers in an array y shows the odd ones.
 
 
 ### Author

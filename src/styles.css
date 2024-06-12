@@ -1,0 +1,19 @@
+/* NOTE: The instructions are in index.html */
+
+/* --- STEP (4) ---
+Style "blah" (and ONLY "blah") bold and red */
+#result{
+    color:red;
+    font-weight: bold;
+
+}
+
+body * {
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+
+
